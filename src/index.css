@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+
+}
+
+/* Custom utilities */
+@utility perspective-1000 {
+  perspective: var(--perspective-1000);
+}
+
+@utility transform-3d {
+  transform-style: preserve-3d;
+}
+
+@utility rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+@utility backface-hidden {
+  backface-visibility: hidden;
+}
+
+@utility scale-up {
+  transform: scale(1,1.1);
+}
